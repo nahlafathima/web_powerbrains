@@ -1,0 +1,132 @@
+
+.carbon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    width: 100%;
+  }
+  
+  
+  .carbon-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  .carbon-header h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    align-items: center;
+    opacity: 0; 
+    transform: translateY(-50px); 
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  
+  
+  .carbon-header h1.animate-heading {
+    opacity: 1;
+    transform: translateY(0); 
+    animation: slideInFromTop 0.8s ease-out; 
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  .highlight {
+    color: #1e3a8a;
+  }
+  
+ 
+  .carbon-header p {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  
+  .impact-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+  }
+  
+  
+  .icon-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-container {
+    font-size: 200px;  
+    color: #1e3a8a;    
+    margin-left: -90px;
+  }
+  
+  
+  .impact-stats {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 40px;
+    margin-left: -40px;
+  }
+  
+  .impact-stats h2 {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .stat {
+    margin: 15px 0;
+    font-size: 22px;
+  }
+  
+  .number1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: brown;
+  }
+  
+  .number2 {
+    font-size: 70px;
+    font-weight: bold;
+    color: darkcyan;
+  }
+  
+  .number3 {
+    font-size: 70px;
+    font-weight: bold;
+    color: peru;
+  }
+  
+  .text {
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  

@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../../assets/images/Logo.svg'
 
 
 const Navbar = () => {
@@ -19,9 +20,9 @@ const Navbar = () => {
 
   return (
     <div className='navbar-container'>
-      {/* <div className='logo'>
-        <img src='' alt=''/>
-      </div> */}
+      <div className='logo'>
+        <img src={logo} alt=''/>
+      </div>
       <div className='logo_text'>
         <h2>PowerbrainLabs</h2>
       </div>

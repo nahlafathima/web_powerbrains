@@ -56,10 +56,10 @@ body, html {
   }
   
   .Introsection-img img {
-    width: 70%; /* Increase width to be 120% of the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Keep rounded corners */
-    max-height: 100%; /* Prevent it from overflowing the container */
+    width: 70%; 
+    height: auto; 
+    border-radius: 10px;
+    max-height: 100%; 
     margin-left: -160px;
   }
   
@@ -67,73 +67,73 @@ body, html {
 
   @media (max-width: 1024px) {
     .Introsection-container {
-      flex-direction: column; /* Stack content vertically */
-      align-items: flex-start; /* Align items to the left */
-      gap: 20px; /* Reduce the gap */
-      padding: 30px; /* Adjust padding for medium screens */
+      flex-direction: column; 
+      align-items: flex-start; 
+      gap: 20px; 
+      padding: 30px; 
     }
   
     .Introsection-text {
-      max-width: 100%; /* Full-width text */
-      text-align: center; /* Center-align text for better readability */
+      max-width: 100%; 
+      text-align: center; 
     }
   
     .Introsection-text h1 {
-      font-size: 2.5rem; /* Reduce heading size */
+      font-size: 2.5rem; 
     }
   
     .Introsection-text p {
-      font-size: 0.9rem; /* Slightly smaller text size */
+      font-size: 0.9rem; 
     }
   
     .Introsection-button {
-      margin: 20px auto 0; /* Center-align the button */
+      margin: 20px auto 0; 
     }
   
     .Introsection-img {
-      max-width: 100%; /* Full-width image container */
+      max-width: 100%; 
     }
   }
   
   @media (max-width: 768px) {
     .Introsection-container {
-      padding: 20px; /* Further reduce padding */
+      padding: 20px; 
     }
   
     .Introsection-text h1 {
-      font-size: 2rem; /* Smaller heading size */
+      font-size: 2rem; 
     }
   
     .Introsection-text p {
-      font-size: 0.8rem; /* Adjust text size */
+      font-size: 0.8rem; 
     }
   
     .Introsection-button {
-      padding: 8px 16px; /* Adjust button size */
-      font-size: 0.9rem; /* Smaller button text */
+      padding: 8px 16px; 
+      font-size: 0.9rem; 
     }
   }
   
   @media (max-width: 480px) {
     .Introsection-container {
-      padding: 15px; /* Minimal padding for very small screens */
+      padding: 15px; 
     }
   
     .Introsection-text h1 {
-      font-size: 1.8rem; /* Smaller heading size */
+      font-size: 1.8rem; 
     }
   
     .Introsection-text p {
-      font-size: 0.8rem; /* Compact text size */
+      font-size: 0.8rem; 
     }
   
     .Introsection-button {
-      padding: 6px 12px; /* Smallest button size */
-      font-size: 0.8rem; /* Smaller button text */
+      padding: 6px 12px; 
+      font-size: 0.8rem; 
     }
   
     .Introsection-img img {
-      border-radius: 5px; /* Adjust border radius */
+      border-radius: 5px;
     }
   }
   

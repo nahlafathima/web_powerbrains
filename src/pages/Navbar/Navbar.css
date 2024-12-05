@@ -12,10 +12,26 @@
     z-index: 999;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
-  .logo_text{
-    color: #1e3a8a;
-    margin-left: 70px;
+  
+.logo {
+    display: flex;
+    align-items: center; 
   }
+  
+  
+  .logo img {
+    width: 20px; 
+    height: auto; 
+  }
+  
+  /* Text near the logo */
+  .logo_text {
+    color: #1e3a8a;
+    margin-left: 0; /* Remove any unnecessary margin */
+    font-size: 1.25rem; /* Adjust text size if needed */
+    margin-left: -220px;
+  }
+  
   .menu {
     list-style: none;
     display: flex;
@@ -37,7 +53,7 @@
   
 
   
-  /* Responsive for devices */
+  
   @media (max-width: 768px) {
     .menu {
       display: none;

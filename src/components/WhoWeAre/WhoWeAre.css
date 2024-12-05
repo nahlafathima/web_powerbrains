@@ -1,4 +1,4 @@
-/* WhoWeAre.css */
+
 
 .who-we-are {
     padding: 50px;
@@ -8,27 +8,27 @@
     margin-top: -15%;
 }
 
-/* Add animation to h1 */
+
 .who-we-are h1 {
     font-size: 4rem;
     color: black;
     margin-bottom: 20px;
-    animation: slide-down-shrink 1.5s ease-in-out forwards; /* 'forwards' ensures the final state persists */
-    opacity: 0; /* Initially hidden */
+    animation: slide-down-shrink 1.5s ease-in-out forwards; 
+    opacity: 0; 
 }
 
-/* Keyframes for slide down and shrink effect */
+
 @keyframes slide-down-shrink {
     0% {
-        transform: translateY(-100px) scale(1.2); /* Start above with larger size */
+        transform: translateY(-100px) scale(1.2);
         opacity: 0;
     }
     50% {
-        transform: translateY(-20px) scale(1.1); /* Close to its final position and slightly larger */
+        transform: translateY(-20px) scale(1.1); 
         opacity: 0.7;
     }
     100% {
-        transform: translateY(0) scale(1); /* Final position and normal size */
+        transform: translateY(0) scale(1); 
         opacity: 1;
     }
 }
