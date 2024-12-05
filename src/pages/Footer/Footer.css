@@ -1,0 +1,209 @@
+.footer {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+    margin-top: 90px;
+  }
+  
+  .main {
+    line-height: 35px;
+  }
+  
+  .main h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1e3a8a;
+  }
+  
+  .main h2 img {
+    width: 15px;
+    height: auto;
+  }
+  
+  .main p {
+    color: #ccc;
+  }
+  
+  .main address {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .links,
+  .help,
+  .newsletter {
+    font-size: 16px;
+  }
+  
+  .links h2,
+  .help h2,
+  .newsletter h2 {
+    color: #ccc;
+  }
+  
+  .links ul,
+  .help ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links li,
+  .help li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+    line-height: 35px;
+  }
+  
+  .links li:hover,
+  .help li:hover {
+    color: #1e3a8a;
+  }
+  
+  /* Newsletter Section Styled Like Others */
+  .newsletter{
+    line-height: 35px;
+  }
+  .newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ccc;
+   
+  }
+  
+  .connect ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+    margin-top: 25px;
+    
+  }
+  
+  .connect ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .connect-link {
+    display: flex;
+    gap: 15px; /* Spacing between icons */
+    margin-left: 60px;
+    
+
+  }
+  
+  .social-icon {
+    font-size: 14px; /* Reduce the icon size */
+    color: #fff;
+    background-color: #333; /* Default background color for the circle */
+    border-radius: 50%; /* Makes the container circular */
+    width: 30px; /* Circle width */
+    height: 30px; /* Circle height */
+    display: flex;
+    align-items: center; /* Center the icon vertically */
+    justify-content: center; /* Center the icon horizontally */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge icon on hover */
+  }
+  
+  .social-icon.twitter:hover {
+    background-color: #1e3a8a; /* Twitter color */
+  }
+  
+  .social-icon.facebook:hover {
+    background-color: #1e3a8a; /* Facebook color */
+  }
+  
+  .social-icon.instagram:hover {
+    background-color: #1e3a8a; /* Instagram color */
+  }
+  
+  .social-icon.linkedin:hover {
+    background-color: #1e3a8a; /* LinkedIn color */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .footer-bottom p {
+    font-weight: 400;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr; /* Stack all sections in a single column */
+      gap: 15px;
+      padding: 20px;
+    }
+  
+    .main h2,
+    .links h2,
+    .help h2,
+    .newsletter h2 {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  
+    .main p,
+    .main address,
+    .links li,
+    .help li {
+      font-size: 14px; /* Smaller text size */
+      line-height: 25px; /* Adjust spacing */
+    }
+  
+    .footer-bottom {
+      text-align: center; /* Center-align footer text */
+    }
+  
+    .footer-bottom p {
+      font-size: 12px; /* Smaller font for footer text */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-container {
+      padding: 10px; /* Less padding for very small screens */
+    }
+  
+    .main h2,
+    .links h2,
+    .help h2,
+    .newsletter h2 {
+      font-size: 18px; /* Smaller headers */
+    }
+  
+    .main p,
+    .main address,
+    .links li,
+    .help li {
+      font-size: 12px; /* Adjust text for very small screens */
+      line-height: 20px;
+    }
+  
+    .footer-bottom p {
+      font-size: 10px; /* Minimal font size for footer text */
+    }
+  }
+  

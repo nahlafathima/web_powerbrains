@@ -8,6 +8,7 @@ import Works from './pages/Works';
 
 import Contact from './pages/Contact';
 import Services from './pages/Services'
+import Footer from './pages/Footer/Footer';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             
               <Route path="/Contact" element={<Contact />} />
             </Routes>
+            <Footer/>
       </Router>
       </div>
       
