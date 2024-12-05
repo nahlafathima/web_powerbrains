@@ -1,0 +1,82 @@
+/* Service2.css */
+
+.browse {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.browse h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.browse p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.browse-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.list-category {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.list-category:hover {
+    transform: translateY(-10px);
+    background-color: #f0f0f0;
+}
+
+.category-text {
+    text-align: center;
+}
+
+.category-text svg {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category-text h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.category-text p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.category-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category-text li {
+    font-size: 0.9rem;
+    color: #444;
+    margin: 5px 0;
+}
+
+.category-text li span {
+    font-weight: bold;
+    color: #333;
+}

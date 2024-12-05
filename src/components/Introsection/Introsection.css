@@ -1,0 +1,139 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  
+.Introsection-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    /* gap: 40px; */
+    color: black;
+    width: 100%; 
+    height: calc(100vh - 60px); 
+   margin-top: -70px;
+  }
+  
+ 
+  .Introsection-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    
+  }
+  
+  .Introsection-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    z-index: 2;
+  }
+  
+  
+  .Introsection-button {
+    background-color:#1e3a8a ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .Introsection-button:hover {
+    background-color: navy;
+  }
+  
+  
+  .Introsection-img {
+    flex: 1;
+    max-width: 100%;
+  }
+  
+  .Introsection-img img {
+    width: 70%; /* Increase width to be 120% of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Keep rounded corners */
+    max-height: 100%; /* Prevent it from overflowing the container */
+    margin-left: -160px;
+  }
+  
+  
+
+  @media (max-width: 1024px) {
+    .Introsection-container {
+      flex-direction: column; /* Stack content vertically */
+      align-items: flex-start; /* Align items to the left */
+      gap: 20px; /* Reduce the gap */
+      padding: 30px; /* Adjust padding for medium screens */
+    }
+  
+    .Introsection-text {
+      max-width: 100%; /* Full-width text */
+      text-align: center; /* Center-align text for better readability */
+    }
+  
+    .Introsection-text h1 {
+      font-size: 2.5rem; /* Reduce heading size */
+    }
+  
+    .Introsection-text p {
+      font-size: 0.9rem; /* Slightly smaller text size */
+    }
+  
+    .Introsection-button {
+      margin: 20px auto 0; /* Center-align the button */
+    }
+  
+    .Introsection-img {
+      max-width: 100%; /* Full-width image container */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Introsection-container {
+      padding: 20px; /* Further reduce padding */
+    }
+  
+    .Introsection-text h1 {
+      font-size: 2rem; /* Smaller heading size */
+    }
+  
+    .Introsection-text p {
+      font-size: 0.8rem; /* Adjust text size */
+    }
+  
+    .Introsection-button {
+      padding: 8px 16px; /* Adjust button size */
+      font-size: 0.9rem; /* Smaller button text */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Introsection-container {
+      padding: 15px; /* Minimal padding for very small screens */
+    }
+  
+    .Introsection-text h1 {
+      font-size: 1.8rem; /* Smaller heading size */
+    }
+  
+    .Introsection-text p {
+      font-size: 0.8rem; /* Compact text size */
+    }
+  
+    .Introsection-button {
+      padding: 6px 12px; /* Smallest button size */
+      font-size: 0.8rem; /* Smaller button text */
+    }
+  
+    .Introsection-img img {
+      border-radius: 5px; /* Adjust border radius */
+    }
+  }
+  

@@ -1,0 +1,49 @@
+/* WhoWeAre.css */
+
+.who-we-are {
+    padding: 50px;
+    background-color: white;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin-top: -10%;
+}
+
+.who-we-are h1 {
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+
+.who-we-are h1 span {
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+.who-we-are p {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.who-we-are h2 {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.who-we-are .arrow-icon {
+    font-size: 2rem;
+    color: #1e3a8a;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.3s ease-in-out;
+}
+
+.who-we-are .arrow-icon:hover {
+    transform: translateX(10px);
+}

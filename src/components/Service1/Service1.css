@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .text-section {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .text-section p {
+    font-size: 1.8rem;
+    color: #003366;
+    line-height: 1.5;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .angled-image {
+    width: 700px;
+    max-width: 1000px;
+    height: 500px;
+    object-fit: cover;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-right: -60px;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .image-section {
+      margin-top: 20px;
+    }
+  }
+  
