@@ -1,8 +1,16 @@
 import React from 'react';
 import './WhoWeAre.css';
 import { FaArrowRight } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const WhoWeAre = () => {
+    const navigate = useNavigate();
+
+    const handleNavigation = (path) => {
+        navigate(path);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        
+    };
   return (
     <div className="who-we-are">
         <h1>Who <span>we</span> are?</h1>
@@ -13,7 +21,7 @@ const WhoWeAre = () => {
           razor-sharp expertise.
         </p>
         <h2>Let's move Together!</h2>
-        <div className="arrow-icon">
+        <div className="arrow-icon" onClick={() => handleNavigation('/Who we are')}>
           <FaArrowRight />
         </div>
     </div>
